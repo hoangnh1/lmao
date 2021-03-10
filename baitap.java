@@ -35,7 +35,6 @@ public static void main(String[] args) {
    cal.setTime(date1);
    cal.add(Calendar.MONTH, st);
    cal.set(Calendar.DATE, cal.getActualMaximum(Calendar.DAY_OF_MONTH));
-   //Date st1 = cal.getTime();
 
    System.out.println("Start date = " + startDate +  "\nSo thang cong them la: " + st + "\n= " + sDateFormat.format(cal.getTime()));
    } catch (Exception e) {
